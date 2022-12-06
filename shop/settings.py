@@ -159,3 +159,16 @@ SIMPLE_JWT = {
 }
 
 # AUTH_USER_MODEL = 'accounts.User'
+USER_ACTIVATE_TOKEN_ENABLED = True
+REGISTER_SEND_WELCOME_EMAIL_ENABLED = True 
+RESET_PASSWORD_ENABLED = True
+
+
+EMAIL_HOST = 'smtp.mailgun.org'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'postmaster@sandboxe10a7bb687374c58a6d4459c09ba5f7c.mailgun.org'
+EMAIL_HOST_PASSWORD = '000b3b64b7b996c8866008e8e06542af-48c092ba-e4a78ec8'
+EMAIL_USE_TLS = True
+
+# Default from email
+DEFAULT_FROM_EMAIL = 'tenirberdi444@gmail.com'
